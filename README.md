@@ -1,8 +1,7 @@
 ember-chance
 ==============================================================================
 
-[Short description of the addon.]
-
+Ember Addon wrapper for Chance.js with template helpers
 
 Compatibility
 ------------------------------------------------------------------------------
