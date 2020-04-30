@@ -10,4 +10,8 @@ Router.map(function() {
   this.route('basics');
   this.route('text');
   this.route('person');
+  this.route('thing');
+  this.route('mobile');
+  this.route('web');
+  this.route('location');
 });
