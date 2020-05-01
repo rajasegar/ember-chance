@@ -14,4 +14,8 @@ Router.map(function() {
   this.route('mobile');
   this.route('web');
   this.route('location');
+  this.route('time');
+  this.route('finance');
+  this.route('helpers');
+  this.route('misc');
 });

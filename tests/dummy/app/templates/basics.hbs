@@ -1,6 +1,6 @@
 <h3>Basics</h3>
   <h3>chance-bool:</h3>
-  <p>Description for chance-bool goes here.</p>
+  <p>Return a random boolean value (true or false)</p>
   <p>
   <code>
   \{{ chance-bool }}
@@ -21,9 +21,24 @@
   </code>
   </p>
   
+  <h3>chance-falsy:</h3>
+  <p>Return a random falsy value ( fasle, null, undefined, 0, NaN, '')_</p>
+  <p>
+  <code>
+  \{{ chance-falsy }}
+  => {{ chance-falsy }}
+  </code>
+  </p>
+  <p>With named arguments (options) :</p>
+  <p>
+  <code>
+  \{{ chance-falsy pool=30}}
+  => {{ chance-falsy pool=30}}
+  </code>
+  </p>
 
   <h3>chance-character:</h3>
-  <p>Description for chance-character goes here.</p>
+  <p>Return a random character</p>
   <p>
   <code>
   \{{ chance-character }}
