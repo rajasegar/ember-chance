@@ -3,6 +3,8 @@ ember-chance
 
 Ember Addon wrapper for [Chance.js](https://chancejs.com/index.html) with template helpers
 
+See the [documentation](https://rajasegar.github.io/ember-chance) here.
+
 
 Installation
 ------------------------------------------------------------------------------
