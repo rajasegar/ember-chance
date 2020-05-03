@@ -32,8 +32,8 @@
   <p>With named arguments (options) :</p>
   <p>
   <code>
-  \{{ chance-falsy pool=30}}
-  => {{ chance-falsy pool=30}}
+  \{{ chance-falsy pool=(array 'false' 'NaN')}}
+  => {{ chance-falsy pool=(array 'false' 'NaN')}}
   </code>
   </p>
 
@@ -42,15 +42,45 @@
   <p>
   <code>
   \{{ chance-character }}
+  => {{ chance-character }}
   </code>
   </p>
   <p>With named arguments (options) :</p>
   <p>
   <code>
-  \{{ chance-character }}
+  \{{ chance-character pool='abcde'}}
+  => {{ chance-character pool='abcde'}}
   </code>
   </p>
   
+<p>
+  <code>
+  \{{ chance-character alpha=true}}
+  => {{ chance-character alpha=true}}
+  </code>
+  </p>
+  
+<p>
+  <code>
+  \{{ chance-character numeric=true}}
+  => {{ chance-character numeric=true}}
+  </code>
+  </p>
+  
+
+<p>
+  <code>
+  \{{ chance-character casing='upper'}}
+  => {{ chance-character casing='upper'}}
+  </code>
+  </p>
+  
+<p>
+  <code>
+  \{{ chance-character symbols=true}}
+  => {{ chance-character symbols=true}}
+  </code>
+  </p>
 
   <h3>chance-floating:</h3>
   <p>Description for chance-floating goes here.</p>
