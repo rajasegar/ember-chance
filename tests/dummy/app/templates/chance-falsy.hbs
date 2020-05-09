@@ -1,13 +1,17 @@
-
   <h3>chance-falsy:</h3>
-  <p>Description for chance-falsy goes here.</p>
+  <hr>
+  <p>Return a random falsy value ( fasle, null, undefined, 0, NaN, '')_</p>
   <p>
   <code>
-  \{{ chance-falsy "hello world"}}
+  \{{ chance-falsy }}
+  => {{ chance-falsy }}
   </code>
   </p>
+  <p>With named arguments (options) :</p>
   <p>
   <code>
-  // => {{ chance-falsy "hello world"}}
+  \{{ chance-falsy pool=(array 'false' 'NaN')}}
+  => {{ chance-falsy pool=(array 'false' 'NaN')}}
   </code>
   </p>
+

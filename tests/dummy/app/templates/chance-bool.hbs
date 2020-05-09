@@ -1,13 +1,23 @@
-
-  <h3>chance-bool:</h3>
-  <p>Description for chance-bool goes here.</p>
+<h3>chance-bool:</h3>
+<hr>
+  <p>Return a random boolean value (true or false)</p>
   <p>
   <code>
-  \{{ chance-bool "hello world"}}
+  \{{ chance-bool }}
+  => {{ chance-bool }}
   </code>
   </p>
+  <p>With named arguments (options) :</p>
   <p>
   <code>
-  // => {{ chance-bool "hello world"}}
+  \{{ chance-bool likelihood=30}}
+  => {{ chance-bool likelihood=30}}
   </code>
   </p>
+   <p>
+  <code>
+  \{{ chance-bool likelihood=90}}
+  => {{ chance-bool likelihood=90}}
+  </code>
+  </p>
+  
