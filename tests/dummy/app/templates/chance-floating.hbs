@@ -1,6 +1,6 @@
     <h3>chance-floating:</h3>
     <hr>
-  <p>Description for chance-floating goes here.</p>
+  <p>Return a random floating point number.</p>
   <p>
   <code>
   \{{ chance-floating }}
@@ -14,7 +14,32 @@
   <p>With named arguments (options) :</p>
   <p>
   <code>
-  \{{ chance-floating }}
+  \{{ chance-floating fixed=7}}
+  </code>
+  </p>
+  <p>
+  <code>
+    // => {{ chance-floating fixed=7}}
+  </code>
+  </p>
+  <p>
+  <code>
+  \{{ chance-floating min=0 max=100}}
+  </code>
+  </p>
+  <p>
+  <code>
+    // => {{ chance-floating min=0 max=100}}
+  </code>
+  </p>
+  <p>
+  <code>
+  \{{ chance-floating fixed=8 min=0 max=100}}
+  </code>
+  </p>
+  <p>
+  <code>
+    // => {{ chance-floating fixed=8 min=0 max=100}}
   </code>
   </p>
  

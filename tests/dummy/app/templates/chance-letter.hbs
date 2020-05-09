@@ -1,6 +1,6 @@
   <h3>chance-letter:</h3>
   <hr>
-  <p>Description for chance-letter goes here.</p>
+  <p>Return a random letter</p>
   <p>
   <code>
   \{{ chance-letter }}
@@ -14,7 +14,22 @@
   <p>With named arguments (options) :</p>
   <p>
   <code>
-  \{{ chance-letter }}
+  \{{ chance-letter casing="lower"}}
+  </code>
+  </p>
+  <p>
+  <code>
+    // => {{ chance-letter casing="lower"}}
+  </code>
+  </p>
+  <p>
+  <code>
+  \{{ chance-letter casing="upper"}}
+  </code>
+  </p>
+  <p>
+  <code>
+    // => {{ chance-letter casing="upper"}}
   </code>
   </p>
  

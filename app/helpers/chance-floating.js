@@ -1,1 +1,1 @@
-export { default, chanceFloatin } from 'ember-chance/helpers/chance-floatin';
+export { default, chanceFloating } from 'ember-chance/helpers/chance-floating';
