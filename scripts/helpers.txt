@@ -1,3 +1,4 @@
+bool
 falsy
 character
 floating

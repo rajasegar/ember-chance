@@ -1,47 +1,177 @@
 <div class="container">
   <div class="sidebar">
     <h2>ember-chance</h2>
+
     <nav>
       <ul>
         <li>
     <LinkTo @route="index">Home</LinkTo>
         </li>
-        <li>
-    <LinkTo @route="basics">Basics</LinkTo>
-        </li>
-        <li>
-    <LinkTo @route="person">Person</LinkTo>
-        </li>
-        <li>
-    <LinkTo @route="text">Text</LinkTo>
-        </li>
-
-        <li>
-    <LinkTo @route="thing">Thing</LinkTo>
-        </li>
-        <li>
-    <LinkTo @route="mobile">Mobile</LinkTo>
-        </li>
-        <li>
-    <LinkTo @route="web">Web</LinkTo>
-        </li>
-        <li>
-    <LinkTo @route="location">Location</LinkTo>
-        </li>
-        <li>
-    <LinkTo @route="time">Time</LinkTo>
-        </li>
-        <li>
-    <LinkTo @route="finance">Finance</LinkTo>
-        </li>
-        <li>
-    <LinkTo @route="helpers">Helpers</LinkTo>
-        </li>
-        <li>
-    <LinkTo @route="misc">Miscellaneous</LinkTo>
-        </li>
       </ul>
     </nav>
+
+  <h3>Basics</h3>
+  <nav>
+    <ul>
+
+<li><LinkTo @route="chance-bool">chance-bool</LinkTo></li>
+<li><LinkTo @route="chance-falsy">chance-falsy</LinkTo></li>
+<li><LinkTo @route="chance-character">chance-character</LinkTo></li>
+<li><LinkTo @route="chance-floating">chance-floating</LinkTo></li>
+<li><LinkTo @route="chance-integer">chance-integer</LinkTo></li>
+<li><LinkTo @route="chance-letter">chance-letter</LinkTo></li>
+<li><LinkTo @route="chance-natural">chance-natural</LinkTo></li>
+<li><LinkTo @route="chance-string">chance-string</LinkTo></li>
+    </ul>
+  </nav>
+
+  <h3>Text</h3>
+  <nav>
+    <ul>
+<li><LinkTo @route="chance-paragraph">chance-paragraph</LinkTo></li>
+<li><LinkTo @route="chance-sentence">chance-sentence</LinkTo></li>
+<li><LinkTo @route="chance-syllable">chance-syllable</LinkTo></li>
+<li><LinkTo @route="chance-word">chance-word</LinkTo></li>
+    </ul>
+  </nav>
+  <h3>Person</h3>
+  <nav>
+    <ul>
+
+<li><LinkTo @route="chance-age">chance-age</LinkTo></li>
+<li><LinkTo @route="chance-birthday">chance-birthday</LinkTo></li>
+<li><LinkTo @route="chance-cf">chance-cf</LinkTo></li>
+<li><LinkTo @route="chance-cpf">chance-cpf</LinkTo></li>
+<li><LinkTo @route="chance-first">chance-first</LinkTo></li>
+<li><LinkTo @route="chance-gender">chance-gender</LinkTo></li>
+<li><LinkTo @route="chance-last">chance-last</LinkTo></li>
+<li><LinkTo @route="chance-name">chance-name</LinkTo></li>
+<li><LinkTo @route="chance-prefix">chance-prefix</LinkTo></li>
+<li><LinkTo @route="chance-ssn">chance-ssn</LinkTo></li>
+<li><LinkTo @route="chance-suffix">chance-suffix</LinkTo></li>
+    </ul>
+  </nav>
+  <h3>Thing</h3>
+  <nav>
+    <ul>
+<li><LinkTo @route="chance-animal">chance-animal</LinkTo></li>
+    </ul>
+  </nav>
+  <h3>Mobile</h3>
+  <nav>
+    <ul>
+<li><LinkTo @route="chance-android-id">chance-android-id</LinkTo></li>
+<li><LinkTo @route="chance-apple-token">chance-apple-token</LinkTo></li>
+<li><LinkTo @route="chance-bb-pin">chance-bb-pin</LinkTo></li>
+<li><LinkTo @route="chance-wp7-anid">chance-wp7-anid</LinkTo></li>
+<li><LinkTo @route="chance-wp8-anid2">chance-wp8-anid2</LinkTo></li>
+    </ul>
+  </nav>
+  <h3>Web</h3>
+  <nav>
+    <ul>
+
+<li><LinkTo @route="chance-avatar">chance-avatar</LinkTo></li>
+<li><LinkTo @route="chance-color">chance-color</LinkTo></li>
+<li><LinkTo @route="chance-company">chance-company</LinkTo></li>
+<li><LinkTo @route="chance-domain">chance-domain</LinkTo></li>
+<li><LinkTo @route="chance-email">chance-email</LinkTo></li>
+<li><LinkTo @route="chance-fbid">chance-fbid</LinkTo></li>
+<li><LinkTo @route="chance-google-analytics">chance-google-analytics</LinkTo></li>
+<li><LinkTo @route="chance-hashtag">chance-hashtag</LinkTo></li>
+<li><LinkTo @route="chance-ip">chance-ip</LinkTo></li>
+<li><LinkTo @route="chance-ipv6">chance-ipv6</LinkTo></li>
+<li><LinkTo @route="chance-klout">chance-klout</LinkTo></li>
+<li><LinkTo @route="chance-profession">chance-profession</LinkTo></li>
+<li><LinkTo @route="chance-tld">chance-tld</LinkTo></li>
+<li><LinkTo @route="chance-twitter">chance-twitter</LinkTo></li>
+<li><LinkTo @route="chance-url">chance-url</LinkTo></li>
+    </ul>
+  </nav>
+  <h3>Location</h3>
+  <nav>
+    <ul>
+<li><LinkTo @route="chance-address">chance-address</LinkTo></li>
+<li><LinkTo @route="chance-altitude">chance-altitude</LinkTo></li>
+<li><LinkTo @route="chance-areacode">chance-areacode</LinkTo></li>
+<li><LinkTo @route="chance-city">chance-city</LinkTo></li>
+<li><LinkTo @route="chance-coordinates">chance-coordinates</LinkTo></li>
+<li><LinkTo @route="chance-country">chance-country</LinkTo></li>
+<li><LinkTo @route="chance-depth">chance-depth</LinkTo></li>
+<li><LinkTo @route="chance-geohash">chance-geohash</LinkTo></li>
+<li><LinkTo @route="chance-latitude">chance-latitude</LinkTo></li>
+<li><LinkTo @route="chance-locale">chance-locale</LinkTo></li>
+<li><LinkTo @route="chance-longitude">chance-longitude</LinkTo></li>
+<li><LinkTo @route="chance-phone">chance-phone</LinkTo></li>
+<li><LinkTo @route="chance-postal">chance-postal</LinkTo></li>
+<li><LinkTo @route="chance-postcode">chance-postcode</LinkTo></li>
+<li><LinkTo @route="chance-province">chance-province</LinkTo></li>
+<li><LinkTo @route="chance-state">chance-state</LinkTo></li>
+<li><LinkTo @route="chance-street">chance-street</LinkTo></li>
+<li><LinkTo @route="chance-zip">chance-zip</LinkTo></li>
+    </ul>
+  </nav>
+  <h3>Time</h3>
+  <nav>
+    <ul>
+<li><LinkTo @route="chance-ampm">chance-ampm</LinkTo></li>
+<li><LinkTo @route="chance-date">chance-date</LinkTo></li>
+<li><LinkTo @route="chance-hammertime">chance-hammertime</LinkTo></li>
+<li><LinkTo @route="chance-hour">chance-hour</LinkTo></li>
+<li><LinkTo @route="chance-millisecond">chance-millisecond</LinkTo></li>
+<li><LinkTo @route="chance-minute">chance-minute</LinkTo></li>
+<li><LinkTo @route="chance-month">chance-month</LinkTo></li>
+<li><LinkTo @route="chance-second">chance-second</LinkTo></li>
+<li><LinkTo @route="chance-timestamp">chance-timestamp</LinkTo></li>
+<li><LinkTo @route="chance-timezone">chance-timezone</LinkTo></li>
+<li><LinkTo @route="chance-weekday">chance-weekday</LinkTo></li>
+<li><LinkTo @route="chance-year">chance-year</LinkTo></li>
+    </ul>
+  </nav>
+  <h3>Finance</h3>
+  <nav>
+    <ul>
+<li><LinkTo @route="chance-cc">chance-cc</LinkTo></li>
+<li><LinkTo @route="chance-cc-type">chance-cc-type</LinkTo></li>
+<li><LinkTo @route="chance-currency">chance-currency</LinkTo></li>
+<li><LinkTo @route="chance-currency-pair">chance-currency-pair</LinkTo></li>
+<li><LinkTo @route="chance-dollar">chance-dollar</LinkTo></li>
+<li><LinkTo @route="chance-euro">chance-euro</LinkTo></li>
+<li><LinkTo @route="chance-exp">chance-exp</LinkTo></li>
+<li><LinkTo @route="chance-exp-month">chance-exp-month</LinkTo></li>
+<li><LinkTo @route="chance-exp-year">chance-exp-year</LinkTo></li>
+    </ul>
+  </nav>
+  <h3>Helpers</h3>
+  <nav>
+    <ul>
+<li><LinkTo @route="chance-capitalize">chance-capitalize</LinkTo></li>
+<li><LinkTo @route="chance-mixin">chance-mixin</LinkTo></li>
+<li><LinkTo @route="chance-pad">chance-pad</LinkTo></li>
+<li><LinkTo @route="chance-pick">chance-pick</LinkTo></li>
+<li><LinkTo @route="chance-pickone">chance-pickone</LinkTo></li>
+<li><LinkTo @route="chance-pickset">chance-pickset</LinkTo></li>
+<li><LinkTo @route="chance-set">chance-set</LinkTo></li>
+<li><LinkTo @route="chance-shuffle">chance-shuffle</LinkTo></li>
+    </ul>
+  </nav>
+  <h3>Miscellaneous</h3>
+  <nav>
+    <ul>
+<li><LinkTo @route="chance-coin">chance-coin</LinkTo></li>
+<li><LinkTo @route="chance-dice">chance-dice</LinkTo></li>
+<li><LinkTo @route="chance-guid">chance-guid</LinkTo></li>
+<li><LinkTo @route="chance-hash">chance-hash</LinkTo></li>
+<li><LinkTo @route="chance-hidden">chance-hidden</LinkTo></li>
+<li><LinkTo @route="chance-n">chance-n</LinkTo></li>
+<li><LinkTo @route="chance-normal">chance-normal</LinkTo></li>
+<li><LinkTo @route="chance-radio">chance-radio</LinkTo></li>
+<li><LinkTo @route="chance-rpg">chance-rpg</LinkTo></li>
+<li><LinkTo @route="chance-tv">chance-tv</LinkTo></li>
+<li><LinkTo @route="chance-unique">chance-unique</LinkTo></li>
+<li><LinkTo @route="chance-weighted">chance-weighted</LinkTo></li>
+    </ul>
+  </nav>
 
 
     <p><a href="https://github.com/rajasegar/ember-chance">Github</a></p>
