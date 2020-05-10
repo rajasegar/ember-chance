@@ -1,6 +1,7 @@
   <h3>chance-string:</h3>
   <hr>
-  <p>Description for chance-string goes here.</p>
+  <p>Return a random string.</p>
+  <p>By default it will return a string with random length of 5-20 characters and will contain any of the following characters.</p>
   <p>
   <code>
   \{{ chance-string }}
@@ -14,7 +15,52 @@
   <p>With named arguments (options) :</p>
   <p>
   <code>
-  \{{ chance-string }}
+  \{{ chance-string length=5}}
+  </code>
+  </p>
+  <p>
+  <code>
+    // => {{ chance-string length=5}}
+  </code>
+  </p>
+  <p>
+  <code>
+  \{{ chance-string pool='abcde'}}
+  </code>
+  </p>
+  <p>
+  <code>
+    // => {{ chance-string pool='abcde'}}
+  </code>
+  </p>
+  <p>
+  <code>
+  \{{ chance-string alpha=true}}
+  </code>
+  </p>
+  <p>
+  <code>
+    // => {{ chance-string alpha=true}}
+  </code>
+  </p>
+  <p>
+  <code>
+  \{{ chance-string casing='lower'}}
+  </code>
+  </p>
+  <p>
+  <code>
+    // => {{ chance-string casing='lower'}}
+  </code>
+  </p>
+  <p>
+  <code>
+  \{{ chance-string symbols=true}}
+  </code>
+  </p>
+  <p>
+  <code>
+    // => {{ chance-string symbols=true}}
   </code>
   </p>
  
