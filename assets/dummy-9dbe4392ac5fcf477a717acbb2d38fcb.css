@@ -1,0 +1,1 @@
+.main,.sidebar{max-height:100vh;overflow:auto;padding:1em}.main,.sidebar,code{padding:1em}body{font-family:sans-serif;padding:0;margin:0}.container{display:grid;grid-template-columns:1fr 3fr}.sidebar{background:#c0392b;color:#fff}.sidebar a{color:#fff;text-decoration:none}.main{height:100%}code{background:#fdf6e3;font-size:1.1em;border-radius:.5em;margin-top:1em;display:block}
