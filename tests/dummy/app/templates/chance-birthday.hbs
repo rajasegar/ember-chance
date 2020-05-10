@@ -1,13 +1,64 @@
+<h3>chance-birthday:</h3>
+<hr>
+<p>Generate a random birthday</p>
 
-  <h3>chance-birthday:</h3>
-  <p>Description for chance-birthday goes here.</p>
-  <p>
-  <code>
-  \{{ chance-birthday "hello world"}}
-  </code>
-  </p>
-  <p>
-  <code>
-  // => {{ chance-birthday "hello world"}}
-  </code>
-  </p>
+<p>
+<code>
+  \{{ chance-birthday }}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-birthday }}
+</code>
+</p>
+<p>
+By default, returns an actual JavaScript Date object.
+
+Optionally specify it be returned as a string.
+</p>
+<p>
+<code>
+  \{{ chance-birthday string=true}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-birthday string=true}}
+</code>
+</p>
+<p>By default returns in MM/DD/YYYY format. Can specify DD/MM/YYYY as follows:</p>
+<p>
+<code>
+  \{{ chance-birthday string=true american=false}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-birthday string=true american=false}}
+</code>
+</p>
+<p>Can also specify the type, same types as with <LinkTo @route="chance-age">chance-age</LinkTo>.</p>
+<p>
+<code>
+  \{{ chance-birthday type='child'}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-birthday type='child'}}
+</code>
+</p>
+<p>
+You can also compose with chance-year for interesting combinations. For example, let's say we want to get the birthdays of some renaissance artists (born between 1450 and 1500). We can generate a year and then get a birthday from that year:
+</p>
+<p>
+<code>
+  \{{ chance-birthday year=(chance-year min=1450 max=1500) }}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-birthday year=(chance-year min=1450 max=1500)}}
+</code>
+</p>

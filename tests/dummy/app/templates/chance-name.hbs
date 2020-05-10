@@ -1,13 +1,82 @@
+<h3>chance-name:</h3>
+<hr>
+<p>Generate a random name</p>
+<p>
+<code>
+  \{{ chance-name }}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-name }}
+</code>
+</p>
+<p>Optionally include the middle name</p>
+<p>
+<code>
+  \{{ chance-name middle=true}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-name middle=true}}
+</code>
+</p>
+<p>Optionally include the middle initial</p>
+<p>
+<code>
+  \{{ chance-name middle_initial=true}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-name middle_initial=true}}
+</code>
+</p>
+<p>Optionally include the prefix</p>
+<p>
+<code>
+  \{{ chance-name prefix=true}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-name prefix=true}}
+</code>
+</p>
+<p>Optionally include the suffix</p>
+<p>
+<code>
+  \{{ chance-name suffix=true}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-name suffix=true}}
+</code>
+</p>
 
-  <h3>chance-name:</h3>
-  <p>Description for chance-name goes here.</p>
-  <p>
-  <code>
-  \{{ chance-name "hello world"}}
-  </code>
-  </p>
-  <p>
-  <code>
-  // => {{ chance-name "hello world"}}
-  </code>
-  </p>
+<p>Optionally specify a gender</p>
+<p>
+<code>
+  \{{ chance-name gender='male'}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-name gender='male'}}
+</code>
+</p>
+
+<p>Optionally specify a nationality</p>
+<p>
+<code>
+  \{{ chance-name nationality='it'}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-name nationality='it'}}
+</code>
+</p>
+<p>Note, currently support for nationality is limited to: 'en', 'it'.</p>
