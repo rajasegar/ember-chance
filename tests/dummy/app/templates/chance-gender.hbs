@@ -1,13 +1,24 @@
-
-  <h3>chance-gender:</h3>
-  <p>Description for chance-gender goes here.</p>
-  <p>
-  <code>
-  \{{ chance-gender "hello world"}}
-  </code>
-  </p>
-  <p>
-  <code>
-  // => {{ chance-gender "hello world"}}
-  </code>
-  </p>
+<h3>chance-gender:</h3>
+<hr>
+<p>Generate a random gender value</p>
+<p>
+<code>
+  \{{ chance-gender }}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-gender }}
+</code>
+</p>
+<p>Extra genders can be provided using the extraGenders key in the optional options argument:</p>
+<p>
+<code>
+  \{{ chance-gender extraGenders=(array "Agender" "Genderqueer" "Trans" "Pangender"}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-gender extraGenders=(array "Agender" "Genderqueer" "Trans" "Pangender")}}
+</code>
+</p>

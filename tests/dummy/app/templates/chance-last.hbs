@@ -1,13 +1,25 @@
-
-  <h3>chance-last:</h3>
-  <p>Description for chance-last goes here.</p>
-  <p>
-  <code>
-  \{{ chance-last "hello world"}}
-  </code>
-  </p>
-  <p>
-  <code>
-  // => {{ chance-last "hello world"}}
-  </code>
-  </p>
+<h3>chance-last:</h3>
+<hr>
+<p>Generate a random last name</p>
+<p>
+<code>
+  \{{ chance-last }}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-last }}
+</code>
+</p>
+<p>Optionally specify a nationality to limit first names to those most common of that nationality</p>
+<p>
+<code>
+  \{{ chance-last nationality="it"}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-last nationality="it"}}
+</code>
+</p>
+<p>Note, currently support for nationality is limited to: 'en', 'it', 'nl', 'uk', 'de', 'jp', 'es', 'fr'.</p>

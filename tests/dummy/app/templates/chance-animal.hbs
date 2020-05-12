@@ -1,13 +1,25 @@
-
-  <h3>chance-animal:</h3>
-  <p>Description for chance-animal goes here.</p>
-  <p>
-  <code>
-  \{{ chance-animal "hello world"}}
-  </code>
-  </p>
-  <p>
-  <code>
-  // => {{ chance-animal "hello world"}}
-  </code>
-  </p>
+<h3>chance-animal:</h3>
+<hr>
+<p>Generate a random animal</p>
+<p>
+<code>
+  \{{ chance-animal }}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-animal }}
+</code>
+</p>
+<p>Optionally specify a specific type of animal</p>
+<p>
+<code>
+  \{{ chance-animal type="zoo"}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-animal type="zoo"}}
+</code>
+</p>
+<p>Allowed types are: ocean, desert, grassland, forest, farm, pet, and zoo</p>

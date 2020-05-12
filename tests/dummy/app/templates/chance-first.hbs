@@ -1,13 +1,36 @@
+<h3>chance-first:</h3>
+<hr>
+<p>Generate a random first name.</p>
+<p>
+<code>
+  \{{ chance-first }}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-first }}
+</code>
+</p>
+<p>Optionally specify a gender to limit first names to that gender</p>
+<p>
+<code>
+  \{{ chance-first gender="female"}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-first gender="female"}}
+</code>
+</p>
+<p>Optionally specify a nationality to limit first names to those most common of that nationality</p>
 
-  <h3>chance-first:</h3>
-  <p>Description for chance-first goes here.</p>
-  <p>
-  <code>
-  \{{ chance-first "hello world"}}
-  </code>
-  </p>
-  <p>
-  <code>
-  // => {{ chance-first "hello world"}}
-  </code>
-  </p>
+<p>
+<code>
+  \{{ chance-first nationality="it"}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-first nationality="it"}}
+</code>
+</p>
