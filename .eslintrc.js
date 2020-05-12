@@ -21,7 +21,8 @@ module.exports = {
     browser: true
   },
   rules: {
-    'ember/no-jquery': 'error'
+    'ember/no-jquery': 'error',
+    'no-unused-vars': 0
   },
   overrides: [
     // node files
@@ -34,7 +35,8 @@ module.exports = {
         'testem.js',
         'blueprints/*/index.js',
         'config/**/*.js',
-        'tests/dummy/config/**/*.js'
+        'tests/dummy/config/**/*.js',
+        'commitlint.config.js'
       ],
       excludedFiles: [
         'addon/**',

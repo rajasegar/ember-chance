@@ -5,6 +5,7 @@ floating
 integer
 letter
 natural
+prime
 string
 paragraph
 sentence
