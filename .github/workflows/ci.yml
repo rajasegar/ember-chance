@@ -40,7 +40,7 @@ jobs:
     - name: yarn install, run coveralls
       run: |
         yarn install
-        yarn test:ember --coverage
+        yarn test:ember
         yarn coveralls
 
     - name: Coveralls
