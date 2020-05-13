@@ -2,7 +2,7 @@ ember-chance
 ==============================================================================
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Frajasegar%2Fember-chance%2Fbadge%3Fref%3Dmaster&style=flat)](https://actions-badge.atrox.dev/rajasegar/ember-chance/goto?ref=master)
 [![Coverage Status](https://coveralls.io/repos/github/rajasegar/ember-chance/badge.svg?branch=master)](https://coveralls.io/github/rajasegar/ember-chance?branch=master)
-[![npm](https://img.shields.io/npm/dm/ember-chance.svg)](https://www.npmjs.com/package/ember-chance)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![npm version](http://img.shields.io/npm/v/ember-chance.svg?style=flat)](https://npmjs.org/package/ember-chance "View this project on npm")
 [![dependencies Status](https://david-dm.org/rajasegar/ember-chance/status.svg)](https://david-dm.org/rajasegar/ember-chance)
 [![devDependencies Status](https://david-dm.org/rajasegar/ember-chance/dev-status.svg)](https://david-dm.org/rajasegar/ember-chance?type=dev)
