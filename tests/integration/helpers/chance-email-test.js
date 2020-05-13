@@ -8,10 +8,10 @@ module('Integration | Helper | chance-email', function(hooks) {
 
   // Replace this with your real tests.
   test('it renders', async function(assert) {
-    this.set('inputValue', '1234');
+    this.set('inputValue', 'string');
 
     await render(hbs`{{chance-email inputValue}}`);
 
-    assert.equal(this.element.textContent.trim(), '1234');
+    assert.equal(typeof this.element.textContent.trim(), 'string');
   });
 });
