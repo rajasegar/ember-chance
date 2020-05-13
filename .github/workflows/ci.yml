@@ -29,8 +29,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
-  build:
-    name: Build
+  coverage:
+    name: Coverage
     runs-on: ubuntu-latest
     steps:
 
@@ -39,7 +39,7 @@ jobs:
 
     - name: yarn install, run coveralls
       env:
-        COVERALLS_REPO_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        COVERALLS_REPO_TOKEN: ${{secrets.COVERALLS_REPO_TOKEN}}
       run: |
         yarn install
         yarn test:ember
@@ -48,7 +48,7 @@ jobs:
     - name: Coveralls
       uses: coverallsapp/github-action@master
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.COVERALLS_REPO_TOKEN }}
 
   tests_ember_compat:
     name: Ember Compatability
