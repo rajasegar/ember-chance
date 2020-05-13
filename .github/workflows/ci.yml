@@ -35,16 +35,12 @@ jobs:
     steps:
 
     - uses: actions/checkout@v1
+    - uses: rwjblue/setup-volta@v1
 
-    - name: Use Node.js 10.x
-      uses: actions/setup-node@v1
-      with:
-        node-version: 10.x
-
-    - name: npm install, make test-coverage
+    - name: yarn install, run coveralls
       run: |
-        npm install
-        make test-coverage
+        yarn install
+        yarn coveralls
 
     - name: Coveralls
       uses: coverallsapp/github-action@master
