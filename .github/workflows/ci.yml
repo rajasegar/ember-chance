@@ -30,7 +30,6 @@ jobs:
   coverage:
     name: Coverage
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, 'skip ci')"
     steps:
 
     - uses: actions/checkout@v1
@@ -52,7 +51,6 @@ jobs:
   tests_ember_compat:
     name: Ember Compatability
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, 'skip ci')"
     strategy:
       matrix:
         scenario:
@@ -69,7 +67,6 @@ jobs:
 
   publish:
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, 'skip ci')"
     needs: [tests_ember_compat]
     if: github.ref == 'refs/heads/master'
     steps:
