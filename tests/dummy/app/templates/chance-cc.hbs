@@ -1,13 +1,24 @@
-
-  <h3>chance-cc:</h3>
-  <p>Description for chance-cc goes here.</p>
-  <p>
-  <code>
+<h3>chance-cc:</h3>
+<hr>
+<p>Generate a random credit card number. This card number will pass the Luhn algorithm so it looks like a legit card.</p>
+<p>
+<code>
   \{{ chance-cc "hello world"}}
-  </code>
-  </p>
-  <p>
-  <code>
+</code>
+</p>
+<p>
+<code>
   // => {{ chance-cc "hello world"}}
-  </code>
-  </p>
+</code>
+</p>
+<p>Optionally specify a particular type of card to return:</p>
+<p>
+<code>
+  \{{ chance-cc type="Mastercard"}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-cc type="Mastercard"}}
+</code>
+</p>

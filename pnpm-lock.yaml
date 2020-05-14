@@ -10,6 +10,7 @@ devDependencies:
   '@glimmer/component': 1.0.0
   '@glimmer/tracking': 1.0.0
   '@semantic-release/changelog': 5.0.1_semantic-release@17.0.7
+  '@semantic-release/git': 9.0.0_semantic-release@17.0.7
   babel-eslint: 10.1.0_eslint@6.8.0
   broccoli-asset-rev: 3.0.0
   coveralls: 3.1.0
@@ -1254,6 +1255,24 @@ packages:
   /@semantic-release/error/2.2.0:
     resolution:
       integrity: sha512-9Tj/qn+y2j+sjCI3Jd+qseGtHjOAeg7dU2/lVcqIQ9TV3QDaDXDYXcoOHU+7o2Hwh8L8ymL4gfuO7KxDs3q2zg==
+  /@semantic-release/git/9.0.0_semantic-release@17.0.7:
+    dependencies:
+      '@semantic-release/error': 2.2.0
+      aggregate-error: 3.0.1
+      debug: 4.1.1
+      dir-glob: 3.0.1
+      execa: 4.0.1
+      lodash: 4.17.15
+      micromatch: 4.0.2
+      p-reduce: 2.1.0
+      semantic-release: 17.0.7_semantic-release@17.0.7
+    dev: true
+    engines:
+      node: '>=10.18'
+    peerDependencies:
+      semantic-release: '>=16.0.0 <18.0.0'
+    resolution:
+      integrity: sha512-AZ4Zha5NAPAciIJH3ipzw/WU9qLAn8ENaoVAhD6srRPxTpTzuV3NhNh14rcAo8Paj9dO+5u4rTKcpetOBluYVw==
   /@semantic-release/github/7.0.5_semantic-release@17.0.7:
     dependencies:
       '@octokit/rest': 17.9.0
@@ -11635,6 +11654,7 @@ specifiers:
   '@glimmer/component': ^1.0.0
   '@glimmer/tracking': ^1.0.0
   '@semantic-release/changelog': ^5.0.1
+  '@semantic-release/git': ^9.0.0
   babel-eslint: ^10.1.0
   broccoli-asset-rev: ^3.0.0
   chai: ^4.2.0
