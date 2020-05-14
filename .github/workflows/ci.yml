@@ -25,9 +25,6 @@ jobs:
       run: yarn lint:js
     - name: Templates
       run: yarn lint:hbs
-    - uses: wagoid/commitlint-github-action@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
   coverage:
     name: Coverage

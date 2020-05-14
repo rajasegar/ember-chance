@@ -1,13 +1,49 @@
+<h3>chance-cc-type:</h3>
+<hr>
+<p>Return a random credit card type.</p>
+<p>
+<code>
+  \{{ chance-cc-type }}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-cc-type }}
+</code>
+</p>
+<p>
+Default returns just the name. To return the entire object (consisting of name, short name, numeric prefix, and length), specify so with the raw flag.
+</p>
+<p>
+<code>
+  \{{ chance-cc-type raw=true}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-cc-type raw=true}}
+</code>
+</p>
+<p>
+The available types are (name - short_name):
+<ul>
+<li>    American Express - amex</li>
+<li>    Bankcard - bankcard</li>
+<li>    China UnionPay - chinaunion</li>
+<li>    Diners Club Carte Blanche - dccarte</li>
+<li>    Diners Club enRoute - dcenroute</li>
+<li>    Diners Club International - dcintl</li>
+<li>    Diners Club United States & Canada - dcusc</li>
+<li>    Discover Card - discover</li>
+<li>    InstaPayment - instapay</li>
+<li>    JCB - jcb</li>
+<li>    Laser - laser</li>
+<li>    Maestro - maestro</li>
+<li>    Mastercard - mc</li>
+<li>    Solo - solo</li>
+<li>    Switch - switch</li>
+<li>    Visa - visa</li>
+<li>    Visa Electron - electron</li>
+</ul>
 
-  <h3>chance-cc-type:</h3>
-  <p>Description for chance-cc-type goes here.</p>
-  <p>
-  <code>
-  \{{ chance-cc-type "hello world"}}
-  </code>
-  </p>
-  <p>
-  <code>
-  // => {{ chance-cc-type "hello world"}}
-  </code>
-  </p>
+</p>
