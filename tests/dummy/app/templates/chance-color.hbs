@@ -1,13 +1,84 @@
+<h3>chance-color:</h3>
+<hr>
+<p>Generate a random color.</p>
+<p>
+<code>
+  \{{ chance-color }}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-color }}
+</code>
+</p>
+<p>Colors have four base types: hex, shorthex, rgb, 0x</p>
+<p>
+These are the kinds usable in HTML or CSS. The type can optionally be specified
+</p>
 
-  <h3>chance-color:</h3>
-  <p>Description for chance-color goes here.</p>
-  <p>
-  <code>
-  \{{ chance-color "hello world"}}
-  </code>
-  </p>
-  <p>
-  <code>
-  // => {{ chance-color "hello world"}}
-  </code>
-  </p>
+<p>
+<code>
+  \{{ chance-color format="hex"}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-color format="hex"}}
+</code>
+</p>
+<p>
+<code>
+  \{{ chance-color format="shorthex"}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-color format="shorthex"}}
+</code>
+</p>
+<p>
+<code>
+  \{{ chance-color format="rgb"}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-color format="rgb"}}
+</code>
+</p>
+<p>
+<code>
+  \{{ chance-color format="0x"}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-color format="0x"}}
+</code>
+</p>
+
+<p>Can optionally specify that only grayscale colors be generated</p>
+
+<p>
+<code>
+  \{{ chance-color grayscale=true}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-color grayscale=true}}
+</code>
+</p>
+
+<p>Optionally specify casing to get only uppercase letters in the color</p>
+
+<p>
+<code>
+  \{{ chance-color casing="upper"}}
+</code>
+</p>
+<p>
+<code>
+  // => {{ chance-color casing="upper"}}
+</code>
+</p>
