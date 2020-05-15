@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/rajasegar/ember-chance/compare/v1.1.12...v1.1.13) (2020-05-15)
+
+
+### Bug Fixes
+
+* update address helper with options ([9babaa5](https://github.com/rajasegar/ember-chance/commit/9babaa5a66bf6ee1855209a84bc33480959024b9))
+
 ## [1.1.12](https://github.com/rajasegar/ember-chance/compare/v1.1.11...v1.1.12) (2020-05-14)
 
 
