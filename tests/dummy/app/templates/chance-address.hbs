@@ -1,13 +1,24 @@
-
-  <h3>chance-address:</h3>
-  <p>Description for chance-address goes here.</p>
-  <p>
+<h3>chance-address:</h3>
+<hr>
+<p>Generate a random address</p>
+<p>
   <code>
-  \{{ chance-address "hello world"}}
+  \{{ chance-address }}
   </code>
-  </p>
-  <p>
+</p>
+<p>
   <code>
-  // => {{ chance-address "hello world"}}
+  // => {{ chance-address }}
   </code>
-  </p>
+</p>
+<p>Optionally mandate that it return a short suffix</p>
+<p>
+  <code>
+  \{{ chance-address  short_suffix=true}}
+  </code>
+</p>
+<p>
+  <code>
+  // => {{ chance-address  short_suffix=true}}
+  </code>
+</p>
